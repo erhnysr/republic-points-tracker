@@ -9,7 +9,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-REST_URL = "https://rest.republicai.io"
+REST_URL = "http://localhost:1317"
 
 def get_validators():
     try:
